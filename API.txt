@@ -1,3 +1,4 @@
 GET /api/users - получение списка пользователей
 GET /api/messages - получение списка сообщений
 POST /api/messages - отправка сообщения
+POST /api/users - создание при логине
