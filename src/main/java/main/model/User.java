@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Entity
 public class User {
-    @Id
+    @javax.persistence.Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
