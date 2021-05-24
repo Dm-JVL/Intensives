@@ -1,12 +1,12 @@
 .main {
     width: 1000px;
-    height: 400px;
+    height: 600px;
     background-color: @edecea;
     border-radius: 10px;
     padding: 15px;
     display: flex;
     alight-items: stretch;
-    justify-content: space-between;
+
 }
 
 .left {
@@ -36,9 +36,46 @@
     align-items: center;
 }
 
-.new-message textarea{
+.main {
+    width: 1000px;
+    height: 600px;
+    background-color: #edecea;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: stretch;
+}
+
+.left {
+    width: 100%;
+}
+
+.messages-list {
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 500px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.new-message {
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-message textarea {
     border: 0;
-    width: 700px;
+    width: 500px;
     height: 100%;
 }
 
@@ -51,7 +88,7 @@
     cursor: pointer;
 }
 
-.right {
+.users-list {
     width: 400px;
     background-color: white;
     border-radius: 10px;
